@@ -1,0 +1,12 @@
+F Strings
+If i dont want to do typecasting all the time then it is very useful.
+Example:
+age = int(input("What is your age: "))
+print(f"My age is {age}.")
+
+To make the things write next to each other:
+print(i, end= " ")
+
+listede range kullanirken 2ser 2ser atlatmak böyle yaziliyor:
+for i in range(0,10,2):
+    print(i, end= " ")
